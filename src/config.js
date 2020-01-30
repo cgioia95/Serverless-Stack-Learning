@@ -1,6 +1,11 @@
 export default {
+
+  MAX_ATTACHMENT_SIZE: 5000000,
+
+  STRIPE_KEY: "pk_test_VTVM2ErNFAdIlYMwvUD8KlCu00gGQFCmI5",
+
   s3: {
-    REGION: "us-east-2",
+    REGION: "us-east-1",
     BUCKET: "notes-app-uploads-cgioia"
   },
   apiGateway: {
@@ -11,6 +16,6 @@ export default {
     REGION: "us-east-2",
     USER_POOL_ID: "us-east-2_0uJaDkRU5",
     APP_CLIENT_ID: "1vm307iro0q99b42qoc5ehtn3l",
-    IDENTITY_POOL_ID: "us-east-2:541455be-a6eb-4307-a2da-a143c52664c0 "
+    IDENTITY_POOL_ID: "us-east-2:541455be-a6eb-4307-a2da-a143c52664c0"
   }
 };
